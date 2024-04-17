@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>ОФОРМЛЕНИЕ СПИСКА ЛИТЕРАТУРЫ ПО ГОСТУ</h1>
+    <!-- <form>
+        <label for="fruits">Выберите фрукт:</label>
+        <select id="book" name="fruits" >
+          <option value="apple">Яблоко</option>
+          <option value="banana">Банан</option>
+          <option value="orange">Апельсин</option>
+        </select>
+      </form> -->
+    <div class="lastnameOfAuthor"> 
+        <form>
+            <h3>Напишите фамилию автора:</h3>
+            <input name= "lastname" type="text" placeholder="Пушкин" value="Пушкин">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div class="firstnameOfAuthor">
+        <form>
+            <h3>Напишите инициалы автора:</h3>
+            <input name='firstname' type="text" placeholder='А. С.' value="А. С.">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div class="nameOfBook">
+        <form>
+            <h3>Напишите название книги:</h3>
+            <input name='book' type="text" placeholder='Медный всадник' value="Медный всадник">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div class="nameOfCity">
+        <form>
+            <h3>Напишите город, в котором издана книга:</h3>
+            <input name='city' type="text" placeholder='Москва' value="Москва">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div class="nameOfPublisher">
+        <form>
+            <h3>Напишите название издательства книги:</h3>
+            <input name='publisher' type="text" placeholder='Просвещение' value="Просвещение">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div class="yearOfPublishing">
+        <form>
+            <h3>Напишите год, в который была издана книга:</h3>
+            <input name='year' type="text" placeholder='1995' value="1995">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div class="numberOfPage">
+        <form>
+            <h3>Напишите количество страниц в книце:</h3>
+            <input name='page' type="text" placeholder='255' value="255">
+            <button type="submit">Готово</button>
+        </form>
+    </div>
+    <div>
+        <h3>А вот и он, твой оформленный список:</h3>
+        <h3 class="result"></h3>
+    </div>
+    
+</body>
+</html>
